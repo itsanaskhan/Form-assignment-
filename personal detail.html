@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personaldetail page</title>
+</head>
+
+<body>
+    <div>
+        <br />
+        <br />
+        <center>
+            <table cellpadding="15" cellspacing="0">
+                <tr>
+                    <td bgcolor="#82e0aa"><b>Step 1: Account</b></td>
+                    <td bgcolor="#3280e8"><b>Step 2: Personal Details</b></td>
+                    <td bgcolor="#b2babb"><b>Step 3: Your Review</b></td>
+                </tr>
+            </table>
+        </center>
+        <br />
+        <br />
+        <br />
+        <form action="/submit" method="get">
+            <fieldset>
+                <legend><b>Personal Details</b></legend>
+                <label for="First Name">First Name:</label><br />
+                <input type="text" placeholder="Enter First Name" name="First Name" id="First Name" required>
+                <br />
+                <br />
+                <label for="Last Name">Last Name:</label><br />
+                <input type="text" placeholder="Enter Last Name" name="Last Name" id="Last Name" required>
+                <br />
+                <br />
+                <label for="CNIC">CNIC:</label><br />
+                <input type="number" name="CNIC" id="CNIC" required>
+                <br />
+                <br />
+                <label for="Social Link">Social Link:</label><br />
+                <input type="text" maxlength="13" placeholder="Enter Facebook/Linkedin profile link" name="Social Link"
+                    id="Social Link" required>
+                <br />
+                <br />
+                <br />
+                <a href="./account.html">
+                    <img src="./Assignment/Images/back.png" height="30" alt="go to account page">
+                </a>
+                <a href="./your review.html">
+                    <img src="./Assignment/Images/next.png" height="30" alt="go to review page">
+                </a>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

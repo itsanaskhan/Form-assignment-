@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>account page</title>
+</head>
+
+<body>
+    <div>
+        <br />
+        <br />
+        <center>
+            <table cellpadding="15" cellspacing="0">
+                <tr>
+                    <td bgcolor="#3280e8"><b>Step 1: Account</b></td>
+                    <td bgcolor="#b2babb"><b>Step 2: Personal Details</b></td>
+                    <td bgcolor="#b2babb"><b>Step 3: Your Review</b></td>
+                </tr>
+            </table>
+        </center>
+        <br />
+        <br />
+        <br />
+        <form action="/submit" method="get">
+            <fieldset>
+                <legend><b>Account</b></legend>
+                <label for="Email Address">Email Address:</label><br />
+                <input type="email" placeholder="Enter Email" name="Email Address" id="Email Address" required>
+                <br />
+                <br />
+                <label for="Password">Password:</label><br />
+                <input type="password" placeholder="Enter Password" name="Password" id="Password" required>
+                <br />
+                <br />
+                <label for="Confirm Password">Confirm Password</label><br />
+                <input type="password" placeholder="Confirm password" name="Confirm Password" id="Confirm Password"
+                    required>
+                <br />
+                <br />
+                <br />
+                <a href="./index.html">
+                    <img src="./Assignment/Images/back.png" height="30" alt="go to home page">
+                </a>
+                <a href="./personal detail.html">
+                    <img src="./Assignment/Images/next.png" height="30" alt="go to personal detail page">
+                </a>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
